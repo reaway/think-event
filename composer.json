@@ -1,0 +1,27 @@
+{
+  "name": "reaway/think-event",
+  "type": "library",
+  "description": "think event",
+  "keywords": [],
+  "homepage": "https://github.com/reaway/think-event",
+  "license": "Apache-2.0",
+  "authors": [
+    {
+      "name": "reaway",
+      "email": "reaway@foxmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=7.2.0",
+    "reaway/think-container": "^1.0",
+    "reaway/think-facade": "^1.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Think\\Component\\Event\\": "src/"
+    },
+    "files": [
+      "src/helper.php"
+    ]
+  }
+}
